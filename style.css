@@ -1,0 +1,40 @@
+.main{
+	height: 300px;
+	width: 100%;
+	
+	background-color: #CDCCC7;
+}
+.list{
+	display: flex;
+	justify-content: right;
+	text-align: right;
+	
+}
+.list>li{
+	flex-basis: 10%;
+	list-style-type: none;
+	
+}
+.list li{
+	list-style-type: none;
+}
+.list li ul li{
+	display: none;
+	
+}
+.list li:hover ul li{
+	display: block;
+}
+.list li:hover{
+	
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.second{
+	height: 600px;
+	width: 100%;
+	
+	background-color: tomato;
+}
